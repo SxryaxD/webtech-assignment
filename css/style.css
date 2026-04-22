@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9ff;
+    color: #2d2d2d;
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.main-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.bottom-bar-header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-area a {
+    color: #31317c;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-items {
+    display: flex;
+    list-style: none;
+}
+
+.menu-items li {
+    margin-left: 20px;
+}
+
+.menu-items a {
+    color: #2d2d2d;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu-items a:hover {
+    color: #f4ab0e;
+}
+
+.btn-top {
+    background-color: #f4ab0e;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-section, 
+.work-area, 
+.skills-section-box, 
+.portfolio-section, 
+.testimonial-block, 
+.contact-section {
+    padding: 80px 0;
+}
+
+.top-section {
+    padding-top: 100px;
+}
+
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 40px;
+}
+
+.words-area {
+    flex: 1;
+}
+
+.words-area h1 {
+    color: #31317c;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.accent-color {
+    color: #f4ab0e;
+}
+
+.btns-div {
+    margin-top: 30px;
+}
+
+.filled-btn, .border-btn {
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.filled-btn {
+    background-color: #31317c;
+    color: #ffffff;
+}
+
+.border-btn {
+    border: 2px solid #31317c;
+    color: #31317c;
+}
+
+.img-box {
+    flex: 1;
+    text-align: center;
+}
+
+.photo-div {
+    position: relative;
+    display: inline-block;
+}
+
+.photo-div img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+}
+
+.block-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.block-heading.left-align {
+    text-align: left;
+}
+
+.small-tag {
+    color: #f4ab0e;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+h2 {
+    color: #31317c;
+    font-size: 32px;
+}
+
+.items-grid, .works-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.single-card, .work-item {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    min-width: 300px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+}
+
+h3 {
+    color: #31317c;
+    margin-bottom: 15px;
+}
+
+.pic-box img, .work-img img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.details-link {
+    color: #f4ab0e;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.skills-box {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.skills-info {
+    flex: 1;
+}
+
+.skills-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-item {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #f2f2f2;
+}
+
+.skill-details h4 {
+    color: #31317c;
+}
+
+.bar-background {
+    background: #2832eeac;
+    height: 10px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.work-item {
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+}
+
+.work-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.work-info {
+    padding: 20px;
+}
+
+.tags-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tags-box span {
+    background: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.reviews-box {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.review-msg {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+}
+
+.review-user {
+    margin-top: 20px;
+}
+
+.contact-box {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.info-line {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.form-box {
+    flex: 1;
+}
+
+.field-div input, .field-div textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+.bottom-bar {
+    background-color: #31317c;
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.bottom-logo h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.bottom-logo p {
+    color: #bdbdbd;
+    margin-bottom: 20px;
+}
+
+.bottom-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.bottom-menu li {
+    margin: 0 15px;
+}
+
+.bottom-menu a {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+.bottom-menu a:hover {
+    color: #ffffff;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #bdbdbd;
+    font-size: 24px;
+    margin: 0 15px;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}
+
+.bottom-text {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+.bottom-text a {
+    color: #f4ab0e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .single-card, .work-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-box, .flex-row-reverse, .skills-box, .contact-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-items {
+        margin: 20px 0;
+    }
+
+    .single-card, .work-item {
+        width: 100%;
+    }
+
+    .words-area h1 {
+        font-size: 36px;
+    }
+    
+    .bar-background {
+        width: 100%;
+    }
+}
